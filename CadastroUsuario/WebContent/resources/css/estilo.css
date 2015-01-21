@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+/*Reset das margens*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Configuracao geral do CSS*/
+body {
+	font-size: 12px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#principal {
+	width: 1000px;
+}
+
+#area-util {
+	padding-top: 10px;
+}
+
+.formLogin {
+	width: 500px;
+}
+
+.centraliza {
+	margin: 0 auto;
+}
+
+.texto-centro {
+	text-align: center;
+}
+
+.titulo1 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.desce10 {
+	margin-top:10px;
+}
+
+/*Da um chega para lá no botão do p:calendar*/
+.ui-datepicker-trigger {
+	margin-left: 3px;
+}
+
+/*Remove a bordas do p:fieldset*/
+.semBorda tr,.semBorda td {
+	border: none !important;
+}
